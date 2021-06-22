@@ -1,1 +1,10 @@
-*
+.dockerignore
+.git
+.github
+.gitignore
+.travis.yml
+Dockerfile
+LICENSE.md
+Makefile
+README.md
+snapcraft.yaml
