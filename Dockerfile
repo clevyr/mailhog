@@ -2,7 +2,7 @@
 # MailHog Dockerfile
 #
 
-FROM golang:alpine
+FROM golang:alpine AS builder
 
 # Install MailHog:
 RUN apk --no-cache add --virtual build-dependencies \
@@ -10,9 +10,13 @@ RUN apk --no-cache add --virtual build-dependencies \
   && mkdir -p /root/gocode \
   && export GOPATH=/root/gocode \
   && go get github.com/mailhog/MailHog \
-  && mv /root/gocode/bin/MailHog /usr/local/bin \
   && rm -rf /root/gocode \
   && apk del --purge build-dependencies
+
+
+FROM alpine
+
+COPY --from=builder /root/gocode/bin/MailHog /usr/local/bin/
 
 # Add mailhog user/group with uid/gid 1000.
 # This is a workaround for boot2docker issue #581, see
