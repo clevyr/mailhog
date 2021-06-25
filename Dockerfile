@@ -25,7 +25,7 @@ USER mailhog
 
 WORKDIR /home/mailhog
 
-ENTRYPOINT ["MailHog"]
+ENTRYPOINT ["mailhog"]
 
 # Expose the SMTP and HTTP ports:
 EXPOSE 1025 8025
