@@ -1,11 +1,18 @@
 FROM golang:alpine AS builder
-RUN go get github.com/clevyr/mailhog
+WORKDIR /app
 
+COPY go.mod go.sum .
+RUN go mod download
+
+ARG GOOS=linux
+ARG GOARCH=amd64
+COPY . .
+RUN go build -ldflags='-w -s'
 
 FROM alpine
 WORKDIR /app
 
-COPY --from=builder /go/bin/mailhog /usr/local/bin/
+COPY --from=builder /app/MailHog /usr/local/bin/mailhog
 
 EXPOSE 25 80
 

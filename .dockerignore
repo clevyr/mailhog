@@ -8,3 +8,4 @@ LICENSE.md
 Makefile
 README.md
 snapcraft.yaml
+vendor/
