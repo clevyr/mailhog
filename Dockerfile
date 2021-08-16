@@ -28,7 +28,7 @@ WORKDIR /home/mailhog
 ENTRYPOINT ["sh", "-c", "mailhog 2>/dev/null"]
 
 # Expose the SMTP and HTTP ports:
-EXPOSE 1025 8025
+EXPOSE 25 80
 
 ENV MH_API_BIND_ADDR=:80
 ENV MH_UI_BIND_ADDR=:80
