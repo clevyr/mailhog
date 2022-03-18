@@ -20,7 +20,7 @@ RUN set -x \
     esac \
     && go build -ldflags='-w -s'
 
-FROM alpine
+FROM alpine:3.15
 WORKDIR /app
 
 COPY --from=builder /app/MailHog /usr/local/bin/mailhog
