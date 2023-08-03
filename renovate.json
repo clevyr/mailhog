@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>clevyr/renovate-config",
+    "local>clevyr/renovate-config:golang"
+  ],
+  "includeForks": true
+}
