@@ -4,8 +4,6 @@ WORKDIR /app
 COPY go.mod go.sum .
 RUN go mod download
 
-ARG GOOS=linux
-ARG GOARCH=amd64
 COPY . .
 
 # Set Golang build envs based on Docker platform string
