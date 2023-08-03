@@ -23,7 +23,7 @@ require (
 	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/t-k/fluent-logger-golang v1.0.0 // indirect
 	github.com/tinylib/msgp v0.0.0-20160524150606-05e600edf28f // indirect
-	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
+	golang.org/x/crypto v0.11.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/mgo.v2 v2.0.0-20160609180028-29cc868a5ca6 // indirect
 )
