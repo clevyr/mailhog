@@ -6,9 +6,6 @@ on:
   push:
     branches: master
 
-env:
-  image: clevyr/mailhog
-
 jobs:
   build:
     name: Build Image
@@ -33,10 +30,17 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Compute build variables
-        id: vars
-        run: |
-          printf '::set-output name=short-sha::%s' "${GITHUB_SHA:0:7}"
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: |
+            ghcr.io/clevyr/mailhog
+            clevyr/mailhog
+          tags: |
+            type=raw,priority=1000,value=latest,enable=${{ github.ref == 'refs/heads/master' }}
+            type=ref,event=branch
+            type=sha
 
       - name: Build and Push
         id: docker_build
@@ -45,11 +49,8 @@ jobs:
           pull: true
           push: true
           platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64/v8
-          tags: |
-            ghcr.io/${{ env.image }}:${{ steps.vars.outputs.short-sha }}
-            ghcr.io/${{ env.image }}:latest
-            ${{ env.image }}:${{ steps.vars.outputs.short-sha }}
-            ${{ env.image }}:latest
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
