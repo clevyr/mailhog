@@ -16,7 +16,7 @@ require (
 	github.com/mailhog/MailHog-UI v1.0.1
 	github.com/mailhog/data v1.0.1 // indirect
 	github.com/mailhog/http v1.0.1
-	github.com/mailhog/mhsendmail v0.2.1-0.20160920204233-c097b3bc3fe7
+	github.com/mailhog/mhsendmail v0.2.1-0.20170416184902-9e70164f299c
 	github.com/mailhog/smtp v1.0.1 // indirect
 	github.com/mailhog/storage v1.0.1 // indirect
 	github.com/philhofer/fwd v0.0.0-20160129035939-98c11a7a6ec8 // indirect
