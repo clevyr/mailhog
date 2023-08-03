@@ -7,7 +7,7 @@ require (
 	github.com/gopherjs/gopherjs v0.0.0-20210803090616-8f023c250c89 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/mux v1.3.1-0.20170228224354-599cba5e7b61 // indirect
-	github.com/gorilla/pat v0.0.0-20160413041632-cf955c3d1f2c
+	github.com/gorilla/pat v1.0.1
 	github.com/ian-kent/envconf v0.0.0-20141026121121-c19809918c02
 	github.com/ian-kent/go-log v0.0.0-20160113211217-5731446c36ab
 	github.com/ian-kent/goose v0.0.0-20141221090059-c3541ea826ad // indirect
