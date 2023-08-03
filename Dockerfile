@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM golang:alpine AS builder
+FROM --platform=$BUILDPLATFORM golang:1.16-alpine AS builder
 WORKDIR /app
 
 COPY go.mod go.sum .
@@ -20,7 +20,7 @@ RUN set -x \
     esac \
     && go build -ldflags='-w -s'
 
-FROM alpine
+FROM alpine:3.15
 WORKDIR /app
 
 COPY --from=builder /app/MailHog /usr/local/bin/mailhog
