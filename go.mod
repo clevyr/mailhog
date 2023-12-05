@@ -1,6 +1,6 @@
 module github.com/mailhog/MailHog
 
-go 1.21
+go 1.21.5
 
 require (
 	github.com/gorilla/pat v1.0.1
