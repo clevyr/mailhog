@@ -108,8 +108,8 @@ github.com/ian-kent/go-log v0.0.0-20160113211217-5731446c36ab h1:OgrFrYWlVzY7Tc8
 github.com/ian-kent/go-log v0.0.0-20160113211217-5731446c36ab/go.mod h1:6HitiSDIbT2r0dab4CoKoMAtR7tb0ORQ3OmjkjCZ+zk=
 github.com/ian-kent/goose v0.0.0-20141221090059-c3541ea826ad h1:5UZIY1lPvsBrRQRgyt00lJ1J6HH6CwWAVQB6azyAA1c=
 github.com/ian-kent/goose v0.0.0-20141221090059-c3541ea826ad/go.mod h1:VHyJj0/IJFmpYvVqWFIN2HgjCatXujj7XaLLyOMC23M=
-github.com/ian-kent/linkio v0.0.0-20141229112453-77fb4b01842c h1:Qtoos32rZcX4KzhBo+6qiAHjDchTXFIgmwYmGEzBn90=
-github.com/ian-kent/linkio v0.0.0-20141229112453-77fb4b01842c/go.mod h1:aE63iKqF9rMrshaEiYZroUYFZLaYoTuA7pBMsg3lJoY=
+github.com/ian-kent/linkio v0.0.0-20170807205755-97566b872887 h1:LPaZmcRJS13h+igi07S26uKy0qxCa76u1+pArD+JGrY=
+github.com/ian-kent/linkio v0.0.0-20170807205755-97566b872887/go.mod h1:aE63iKqF9rMrshaEiYZroUYFZLaYoTuA7pBMsg3lJoY=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
 github.com/jonboulle/clockwork v0.1.0/go.mod h1:Ii8DK3G1RaLaWxj9trq07+26W01tbo22gdxWY5EU2bo=
 github.com/json-iterator/go v1.1.6/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCVDaaPEHmU=
