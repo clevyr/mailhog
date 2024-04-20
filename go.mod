@@ -19,7 +19,7 @@ require (
 	github.com/gopherjs/gopherjs v0.0.0-20210803090616-8f023c250c89 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/mux v1.3.1-0.20170228224354-599cba5e7b61 // indirect
-	github.com/gorilla/websocket v1.4.2 // indirect
+	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/ian-kent/goose v0.0.0-20141221090059-c3541ea826ad // indirect
 	github.com/ian-kent/linkio v0.0.0-20141229112453-77fb4b01842c // indirect
 	github.com/mailhog/data v1.0.1 // indirect
@@ -31,6 +31,7 @@ require (
 	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/t-k/fluent-logger-golang v1.0.0 // indirect
 	github.com/tinylib/msgp v0.0.0-20160524150606-05e600edf28f // indirect
+	golang.org/x/net v0.17.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/mgo.v2 v2.0.0-20160609180028-29cc868a5ca6 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
