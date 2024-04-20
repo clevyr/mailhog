@@ -25,12 +25,12 @@ require (
 	github.com/mailhog/data v1.0.1 // indirect
 	github.com/mailhog/smtp v1.0.1 // indirect
 	github.com/mailhog/storage v1.0.1 // indirect
-	github.com/philhofer/fwd v0.0.0-20160129035939-98c11a7a6ec8 // indirect
+	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/t-k/fluent-logger-golang v1.0.0 // indirect
-	github.com/tinylib/msgp v0.0.0-20160524150606-05e600edf28f // indirect
+	github.com/tinylib/msgp v1.1.9 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/mgo.v2 v2.0.0-20160609180028-29cc868a5ca6 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
