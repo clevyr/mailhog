@@ -25,7 +25,7 @@ require (
 	github.com/mailhog/data v1.0.1 // indirect
 	github.com/mailhog/smtp v1.0.1 // indirect
 	github.com/mailhog/storage v1.0.1 // indirect
-	github.com/philhofer/fwd v0.0.0-20160129035939-98c11a7a6ec8 // indirect
+	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.7.0 // indirect
