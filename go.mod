@@ -16,7 +16,7 @@ require (
 require (
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/gopherjs/gopherjs v0.0.0-20210803090616-8f023c250c89 // indirect
+	github.com/gopherjs/gopherjs v1.17.2 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/mux v1.3.1-0.20170228224354-599cba5e7b61 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
