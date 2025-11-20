@@ -1,6 +1,6 @@
 module github.com/mailhog/MailHog
 
-go 1.21
+go 1.24.0
 
 require (
 	github.com/gorilla/pat v1.0.1
@@ -10,7 +10,7 @@ require (
 	github.com/mailhog/MailHog-UI v1.0.1
 	github.com/mailhog/http v1.0.1
 	github.com/mailhog/mhsendmail v0.2.1-0.20170416184902-9e70164f299c
-	golang.org/x/crypto v0.14.0
+	golang.org/x/crypto v0.45.0
 )
 
 require (
